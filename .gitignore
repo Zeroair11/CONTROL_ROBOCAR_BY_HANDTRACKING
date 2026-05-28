@@ -1,0 +1,53 @@
+# ================= VIRTUAL ENV =================
+gesture_robot/venv/
+gesture_robot/env/
+gesture_robot/.venv/
+
+# ================= PYTHON CACHE =================
+gesture_robot/__pycache__/
+gesture_robot/**/*.pyc
+gesture_robot/**/*.pyo
+gesture_robot/**/*.pyd
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+gesture_robot/__pycache__/
+
+# ================= MODEL FILES =================
+gesture_robot/*.pkl
+gesture_robot/*.pickle
+gesture_robot/*.h5
+gesture_robot/*.tflite
+
+*.pkl
+*.pickle
+*.h5
+*.tflite
+
+# ================= DATA / IMAGES (QUAN TRỌNG) =================
+gesture_robot/data/
+gesture_robot/dataset/
+gesture_robot/images/
+gesture_robot/img/
+gesture_robot/raw/
+gesture_robot/*.jpg
+gesture_robot/*.png
+
+# ================= LOG FILES =================
+gesture_robot/*.log
+
+*.log
+
+# ================= IDE =================
+.vscode/
+.idea/
+
+# ================= SYSTEM =================
+.DS_Store
+Thumbs.db
+
+# ================= JUPYTER =================
+.ipynb_checkpoints/
+
